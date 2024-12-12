@@ -1,1 +1,14 @@
 langchain
+langchain-community
+langchain-core==0.3.22
+langchain-google-genai==2.0.6
+python-dotenv
+streamlit
+google-ai-generativelanguage==0.6.10
+google-api-core==2.23.0
+google-api-python-client==2.154.0
+google-auth==2.36.0
+google-auth-httplib2==0.2.0
+google-generativeai==0.8.3
+langchain-chroma
+rapidocr-onnxruntime

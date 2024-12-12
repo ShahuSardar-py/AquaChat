@@ -3,7 +3,7 @@ aqua/
 __pycache__/
 *.pyo
 *.pyd
-
+*.env
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
