@@ -13,8 +13,14 @@ import os
 
 load_dotenv()
 
+st.set_page_config(
+    page_icon="🐠",
+    page_title="AquaMaster"
+)
 # Streamlit App Title
-st.title("Aquarium Master Testing")
+st.title("AquaMaster 🐟")
+st.caption("An AI powered app that guides you on aquarium keeping using the book- Freshwater Aqaurium Guide by Fishlore.com")
+
 
 persist_directory = "./chroma_data"
 os.makedirs(persist_directory, exist_ok=True)
@@ -64,7 +70,7 @@ Keep answers short and concise.
 '''
 
 # Streamlit Chat Input
-query = st.chat_input("Say something:")
+query = st.chat_input("Ask me your aquarium queries:")
 if query:
     prompt = ChatPromptTemplate.from_messages(
         [
